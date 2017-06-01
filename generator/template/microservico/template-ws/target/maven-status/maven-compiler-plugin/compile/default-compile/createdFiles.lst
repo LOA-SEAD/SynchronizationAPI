@@ -1,0 +1,4 @@
+br\com\contato\controller\ContatoController.class
+br\com\contato\dao\ContatoDAO.class
+br\com\contato\Application.class
+br\com\contato\model\Contato.class
