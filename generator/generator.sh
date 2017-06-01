@@ -1,7 +1,9 @@
-#1: Classe Java (atributos do micro serviço)
-#2: Diretório target (micro serviço produzido)
-#3: Diretório template de micro serviço
-#4: Diretório api-gateway
+#!/usr/bin/env bash
+
+#$1: Classe Java (atributos do micro serviço)
+#$2: Diretório target (micro serviço produzido)
+#$3: Diretório template de micro serviço
+#$4: Diretório api-gateway
 
 rm -r $2/*
 java -jar ./generator.jar $1 $2 $3 
